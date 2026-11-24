@@ -1,0 +1,6 @@
+{
+  "name": "Georgian Is Easy — Reel Studio",
+  "description": "Create and export animated Georgian language wordplay reels with deadpan podcast hosts and dual-speaker AI voiceovers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

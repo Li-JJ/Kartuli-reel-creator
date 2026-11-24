@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Bricolage Grotesque", "Noto Sans Georgian", sans-serif;
+    --font-sans: "Plus Jakarta Sans", "Noto Sans Georgian", sans-serif;
+    --font-georgian: "Noto Sans Georgian", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f6f7f1;
+    color: #1c1e1a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-georgian {
+    font-family: var(--font-georgian);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
